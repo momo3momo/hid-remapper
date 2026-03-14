@@ -253,7 +253,6 @@ int main() {
     set_mapping_from_config();
     board_init();
     extra_init();
-    busy_wait_ms(1000);
     tusb_init();
     stdio_init_all();
 
